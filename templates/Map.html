@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+
+            <style>
+                #map_356771995cfce448c2ea4f232442fb63 {
+                    position: center;
+                    width: 70.0%;
+                    height: 70.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_356771995cfce448c2ea4f232442fb63" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_356771995cfce448c2ea4f232442fb63 = L.map(
+                "map_356771995cfce448c2ea4f232442fb63",
+                {
+                    center: [3.0828883, 101.6726867],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5e7a67f78d74374187962857a2e3333c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_356771995cfce448c2ea4f232442fb63);
+        
+    
+            var marker_1a78fba3235d12d25aff0435c78c8c9c = L.marker(
+                [3.1136631, 101.5999816],
+                {}
+            ).addTo(map_356771995cfce448c2ea4f232442fb63);
+        
+    
+            var icon_544486da5bf205d9818cd059f8b977a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_1a78fba3235d12d25aff0435c78c8c9c.setIcon(icon_544486da5bf205d9818cd059f8b977a9);
+        
+    
+        var popup_313e9ecb909241abbed59fe1bf56f451 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3353eaf2fff4706dd87e6a96796d2443 = $(`<div id="html_3353eaf2fff4706dd87e6a96796d2443" style="width: 100.0%; height: 100.0%;">Haziq Imran</div>`)[0];
+                popup_313e9ecb909241abbed59fe1bf56f451.setContent(html_3353eaf2fff4706dd87e6a96796d2443);
+            
+        
+
+        marker_1a78fba3235d12d25aff0435c78c8c9c.bindPopup(popup_313e9ecb909241abbed59fe1bf56f451);
+
+        
+    
+    
+            var marker_a4f91e3f0e07b887e588f7e8b6ebc23c = L.marker(
+                [3.1136631, 101.5999816],
+                {}
+            ).addTo(map_356771995cfce448c2ea4f232442fb63);
+        
+    
+            var icon_5b8b02ebdccef78feaede3c3a965657d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_a4f91e3f0e07b887e588f7e8b6ebc23c.setIcon(icon_5b8b02ebdccef78feaede3c3a965657d);
+        
+    
+        var popup_3ca42d3a6dc274494a7dd7627af1fc81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9d245106580cb2719768de1b1cc7c00 = $(`<div id="html_d9d245106580cb2719768de1b1cc7c00" style="width: 100.0%; height: 100.0%;">Mohd Zamri</div>`)[0];
+                popup_3ca42d3a6dc274494a7dd7627af1fc81.setContent(html_d9d245106580cb2719768de1b1cc7c00);
+            
+        
+
+        marker_a4f91e3f0e07b887e588f7e8b6ebc23c.bindPopup(popup_3ca42d3a6dc274494a7dd7627af1fc81)
+        ;
+
+        
+    
+    
+            var marker_9a992bb98d3c0e6b43aff71d7a26e64a = L.marker(
+                [3.1136631, 101.5999816],
+                {}
+            ).addTo(map_356771995cfce448c2ea4f232442fb63);
+        
+    
+            var icon_fe96f8311e243e58cb68e0bb10a9df48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_9a992bb98d3c0e6b43aff71d7a26e64a.setIcon(icon_fe96f8311e243e58cb68e0bb10a9df48);
+        
+    
+        var popup_ec4b9675ad30e0d895036d71cf7602b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_479eae2d99999628605fb7fb45d35d16 = $(`<div id="html_479eae2d99999628605fb7fb45d35d16" style="width: 100.0%; height: 100.0%;">Izzikry</div>`)[0];
+                popup_ec4b9675ad30e0d895036d71cf7602b4.setContent(html_479eae2d99999628605fb7fb45d35d16);
+            
+        
+
+        marker_9a992bb98d3c0e6b43aff71d7a26e64a.bindPopup(popup_ec4b9675ad30e0d895036d71cf7602b4)
+        ;
+
+        
+    
+    
+            var marker_d539c6878d57e58d20ee536317c1b274 = L.marker(
+                [3.1136631, 101.5999816],
+                {}
+            ).addTo(map_356771995cfce448c2ea4f232442fb63);
+        
+    
+            var icon_822ad04a672d7b1e57182d2df5c918b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "black", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d539c6878d57e58d20ee536317c1b274.setIcon(icon_822ad04a672d7b1e57182d2df5c918b8);
+        
+    
+        var popup_ecd8f2d19a238d57fb6a5f5dd35d2297 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e559f8ebcf5ccaf5c96306fc5627174c = $(`<div id="html_e559f8ebcf5ccaf5c96306fc5627174c" style="width: 100.0%; height: 100.0%;">HELPER</div>`)[0];
+                popup_ecd8f2d19a238d57fb6a5f5dd35d2297.setContent(html_e559f8ebcf5ccaf5c96306fc5627174c);
+            
+        
+
+        marker_d539c6878d57e58d20ee536317c1b274.bindPopup(popup_ecd8f2d19a238d57fb6a5f5dd35d2297)
+        ;
+
+        
+    
+    
+            var marker_603a31c606ae834a836bad27bf3b54e0 = L.marker(
+                [3.1031683, 101.55317],
+                {}
+            ).addTo(map_356771995cfce448c2ea4f232442fb63);
+        
+    
+            var icon_4dc5547209223d1e99f776452ce53405 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "black", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_603a31c606ae834a836bad27bf3b54e0.setIcon(icon_4dc5547209223d1e99f776452ce53405);
+        
+    
+        var popup_9998ad606b0c5ece7d9543610fddbce3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_587bc878c084571391e03b5e49e873f9 = $(`<div id="html_587bc878c084571391e03b5e49e873f9" style="width: 100.0%; height: 100.0%;">HELPER</div>`)[0];
+                popup_9998ad606b0c5ece7d9543610fddbce3.setContent(html_587bc878c084571391e03b5e49e873f9);
+            
+        
+
+        marker_603a31c606ae834a836bad27bf3b54e0.bindPopup(popup_9998ad606b0c5ece7d9543610fddbce3)
+        ;
+
+        
+    
+</script>
+</html>
